@@ -1,6 +1,6 @@
 import { compare } from 'bcrypt';
 
-import { IUserResponse, UserResponseDTO } from '../../user/dtos/response/user-response';
+import { IUserResponse, UserResponseDTO } from '../../user/dtos/response/user.response';
 import { getUserDocument } from '../../user/services/user-query/user-query.service';
 import { wrongCredentials } from '../../../lib/exceptions';
 import { CreateUserDTO } from '../../user/dtos/internal/create-user.model';

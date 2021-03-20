@@ -1,7 +1,7 @@
 import { hash } from 'bcrypt';
 
 import { ICreateUserDTO } from '../../dtos/internal/create-user.model';
-import { IUserResponse, UserResponseDTO } from '../../dtos/response/user-response';
+import { IUserResponse, UserResponseDTO } from '../../dtos/response/user.response';
 import { getUser } from '../user-query/user-query.service';
 import { UserModel } from '../../../../lib/database/models';
 import { wrongCredentials } from '../../../../lib/exceptions';

@@ -1,7 +1,7 @@
 import { FilterQuery } from 'mongoose';
 
 import { UserModel } from '../../../../lib/database/models';
-import { IUserResponse, UserResponseDTO } from '../../dtos/response/user-response';
+import { IUserResponse, UserResponseDTO } from '../../dtos/response/user.response';
 import { IUserDocument } from '../../../../lib/database/documents/user.document';
 import { defaultDbCallback, lazyPick } from '../../../../lib/utils/function.utils';
 
